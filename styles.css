@@ -1,0 +1,49 @@
+header{ 
+    text-align: center;
+    background: white;
+    margin-bottom: 20px;
+}
+body{
+    margin:0;
+    font-family: Helvetica; 
+}
+section{
+    background: rgb(235, 233, 233);
+    padding-top: 60px;
+}
+.feed{ background: white;
+width: 800px;
+margin: auto;
+margin-bottom: 20px;
+border: 1px solid #edeeee;
+font-size:larger;
+}
+
+.feed-header{
+display:flex;
+background: white;
+justify-content:space-between;
+width: 100%;
+align-items: center;
+
+}
+h2{
+    margin: 0;
+    font-size: 20px;
+    width: 90%;
+    float: left;
+    padding: 15px;
+}
+#date {
+    float:right;
+    margin: 0;
+    padding: 15px;
+    width: 10%;
+}
+img{
+    width: 100%;
+}
+.feed-footer{
+    padding: 15px;
+    display: flex;
+}
